@@ -3,8 +3,8 @@
 
 ## Changelog
 
-**0.8.1** Generating thumbs, fix the width of images
-**0.8.** Beta
+* **0.8.1** Generating thumbs, fix the width of images
+* **0.8.** Beta
 
 ## License
 You can use this theme for free. You must only buy a kirby-license and then you can create your own page.
