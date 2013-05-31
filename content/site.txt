@@ -10,7 +10,7 @@ Description: Ein Blogtheme im modernen Flat-Stil gehalten und zur freien Nutzung
 Copyright: Design & Development with love in hanover by (link: http://geek-rocket.de text:Tim Hartmann.)
 ----
 
-Address: Bockeroder Weg 11
+Address: Testway 23
 ----
 
-Zip: 31832 Springe
+Zip: 12345 Mustercity
