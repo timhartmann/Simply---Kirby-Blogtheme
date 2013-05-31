@@ -1,0 +1,9 @@
+## Documentation
+
+
+## Changelog
+
+**0.8.** Beta
+
+## License
+You can use this theme for free. You must only buy a kirby-license and then you can create your own page.

@@ -1,0 +1,17 @@
+ /*=== VARIABLES ===*/
+
+// colors
+$gray: #808081;
+$mainColor: #209add;
+$contrastColor: #2a3e50;
+
+// grid
+$gridCols: 12;
+$gridColWidth: 60px;
+$gridGutterWidth: 20px;
+$baseWidth: ($gridCols*$gridColWidth)+($gridCols*$gridGutterWidth);
+
+// typography
+$baseFontSize: 16;
+$baseFontFamily: Helvetica, Arial, sans-serif;
+$baseFontColor: $gray;

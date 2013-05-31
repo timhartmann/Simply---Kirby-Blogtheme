@@ -1,0 +1,27 @@
+Title: New Kirby-Theme is out!
+----
+
+Datetime: 2013-12-12
+----
+
+Text: 
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, *sed diam nonumy* eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.  
+
+### Überschrift H3
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. 
+
+#### Überschrift H4
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod **tempor invidunt** ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. 
+
+> "I am a blockquote, yeah."
+
+* I am the list
+* I am the list
+* I am the list
+* I am the list
+* I am the list
+
+(image: thumb.jpg)
+----
+
+
