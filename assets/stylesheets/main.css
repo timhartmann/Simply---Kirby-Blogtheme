@@ -418,6 +418,8 @@ article {
     margin: 0 auto;
     margin-bottom: 20px;
     display: block; }
+  article img {
+    width: 576px; }
   article .matter {
     font-size: 16px;
     line-height: 22px;

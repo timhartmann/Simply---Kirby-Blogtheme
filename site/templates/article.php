@@ -3,7 +3,7 @@
 
 <section class="row" role="main">
   <article>
-    <img src="<?php echo $page->images()->find('thumb.jpg')->url() ?>" class="thumb">
+    <img src="<?php echo thumb($page->images()->find('thumb.jpg'), array('width' => 576, 'height' => 261, 'crop' => true), false) ?>" class="thumb">
     <div class="matter">
       <h2><?php echo $page->title() ?></h2>
       <time><?php echo date('d. M Y', $date) ?></time>

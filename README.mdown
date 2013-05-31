@@ -3,6 +3,7 @@
 
 ## Changelog
 
+**0.8.1** Generating thumbs, fix the width of images
 **0.8.** Beta
 
 ## License
