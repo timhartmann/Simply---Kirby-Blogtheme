@@ -1,5 +1,24 @@
+## Preview
+![](http://geek-rocket.de/simply.png)
+
+### <a href="http://simply.geek-rocket.de/">Demo</a>
+
 ## Documentation
 
+It's really easy to use this theme. You should only clone this repository.
+
+    git clone git@github.com:Chail/Simply.git
+    cd THEMEFOLDER
+    
+Download the Kirby-CMS from <a href="http://getkirby.com">**here**</a> and copy the kirby-folder.
+After this, you must put the folder to the theme.
+
+## Todo's
+* Responsive
+* Documentation for multi-language
+* Pagination
+* Include the Panel
+* Sharing the articles
 
 ## Changelog
 
