@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+// fonts
+@mixin font-size($value) {
+  font-size: $value+px;
+  font-size: ($value / 16)+rem;
+}
+
+//grid
+@mixin cols($col) {
+  .col-#{$col} {
+    width: ($gridColWidth*$col)+($gridGutterWidth*($col - 1));
+    margin-left: $gridGutterWidth;
+  }
+}
+
+//clearfix
+@mixin clearfix {
+  &:after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+}
+
+//list-margin
+@mixin listing($selector, $val, $boolean) {
+  #{$selector} {
+    @if $boolean {
+      @include clearfix;
+    } @else {
+
+    }
+    li {
+      float: left;
+      margin-left: $val+px;
+
+      &:first-child {
+        margin-left: 0;
+      }
+    }
+    @content;
+  }
+}
+
+//include font-icon
+@mixin font-icon($icon, $size: 13, $selector: '&') {
+  #{$selector}:before {
+    font-family: 'Stiebel-Toolbox';
+    font-weight: normal;
+    content: $icon;
+    @include font-size($size);
+    -webkit-font-smoothing: antialiased;
+
+    @content;
+  }
+}

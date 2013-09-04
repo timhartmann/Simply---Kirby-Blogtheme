@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+.m-button:hover {
+  background-color: darken($mainColor, 5);
+  color: #fff;
+}
+.m-button--single-icon:hover {
+  background-color: darken($contrastColor, 5);
+}

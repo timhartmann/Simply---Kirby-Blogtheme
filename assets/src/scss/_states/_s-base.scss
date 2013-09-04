@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+// Presets
+a:hover {
+  color: $contrastColor;
+}
+
+// Layout
+.l-banner__logo a:hover {
+  opacity: .7;
+  color: #fff;
+}
+
+// Lists
+.m-list a:hover {
+  color: #fff;
+}

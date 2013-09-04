@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+.m-list {
+  float: right;
+  margin-top: 20px;
+  position: relative;
+
+  a {
+    color: #fff;
+  }
+
+  li {
+    display: inline-block;
+    margin-left: 10px;
+
+    a {
+      font-size: 32px;
+
+      &:hover {
+        opacity: .5;
+      }
+    }
+
+    &:first-child {
+      margin-left: 0;
+      vertical-align: 4px;
+      font-size: 18px;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+  }
+}
