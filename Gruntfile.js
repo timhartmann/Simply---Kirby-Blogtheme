@@ -4,6 +4,9 @@ module.exports = function(grunt) {
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
     watch: {
+      files: [
+        'assets/src/**'
+      ],
       tasks: ['default']
     },
     sass: {
@@ -67,6 +70,6 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-sass');
 
   // Default task(s).
-  grunt.registerTask('default', ['sass', 'cssmin', 'copy', 'concat', 'uglify']);
-
+  grunt.registerTask('default', ['sass', 'copy', 'concat']);
+  grunt.registerTask('release', ['default', 'cssmin', 'uglify']);
 };
