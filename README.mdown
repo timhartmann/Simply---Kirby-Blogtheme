@@ -21,9 +21,7 @@ After this, you must put the folder to the theme.
 * Sharing the articles
 
 ## Changelog
-
-* **0.8.1** Generating thumbs, fix the width of images
-* **0.8.** Beta
+Take a look at the tags for it please.
 
 ## License
 You can use this theme for free. You must only buy a kirby-license and then you can create your own page.
