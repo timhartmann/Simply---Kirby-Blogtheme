@@ -70,7 +70,7 @@ module.exports = function(grunt) {
         dest: 'assets/build/javascript/application.min.js'
       }
     },
-    bumup: ['package.json', 'bower.json'],
+    bumpup: ['package.json', 'bower.json'],
     tagrelease: {
       file: 'package.json',
       commit:  true,
