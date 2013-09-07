@@ -1,11 +1,13 @@
+@charset "UTF-8";
+
 //Font-Icons
 @font-face {
   font-family: 'Simply';
-  src:url('fonts/Simply.eot');
-  src:url('fonts/Simply.eot?#iefix') format('embedded-opentype'),
-    url('fonts/Simply.woff') format('woff'),
-    url('fonts/Simply.ttf') format('truetype'),
-    url('fonts/Simply.svg#Simply') format('svg');
+  src:url('../fonts/Simply.eot');
+  src:url('../fonts/Simply.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Simply.woff') format('woff'),
+    url('../fonts/Simply.ttf') format('truetype'),
+    url('../fonts/Simply.svg#Simply') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -21,7 +23,7 @@
   -webkit-font-smoothing: antialiased;
 }
 
-.icon-facebook-sign, .icon-googleplus-sign, .icon-twitter-sign, .icon-share, .icon-drawer, .icon-remove-sign, .icon-info {
+[class^="icon--"] {
   font-family: 'Simply';
   speak: none;
   font-style: normal;
@@ -31,25 +33,25 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
 }
-.icon-facebook-sign:before {
+.icon--facebook-sign:before {
   content: "\f082";
 }
-.icon-googleplus-sign:before {
+.icon--googleplus-sign:before {
   content: "\f0d4";
 }
-.icon-twitter-sign:before {
+.icon--twitter-sign:before {
   content: "\f081";
 }
-.icon-share:before {
+.icon--share:before {
   content: "\f045";
 }
-.icon-drawer:before {
+.icon--drawer:before {
   content: "\e000";
 }
-.icon-remove-sign:before {
+.icon--remove-sign:before {
   content: "\f057";
 }
-.icon-info:before {
+.icon--info:before {
   content: "\e001";
   font-size: 41px;
   vertical-align: 3px;

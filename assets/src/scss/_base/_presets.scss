@@ -1,3 +1,9 @@
+@charset "UTF-8";
+
+body {
+  font-family: $baseFontFamily;
+}
+
 ul, ol {
   margin-left: 0;
   padding-left: 15px;
@@ -5,27 +11,23 @@ ul, ol {
 a {
   color: $mainColor;
   text-decoration: none;
-  
-  &:hover {
-    color: $contrastColor;
-  }
 }
 strong {
   font-weight: 500;
 }
 blockquote {
-  font-size: 20px;
-  font-style: italic;
-  position: relative;
   margin-left: 50px;
   margin-right: 0;
-  
+  position: relative;
+  font-size: 20px;
+  font-style: italic;
+
   &:before {
     content: '"';
-    font-size: 78px;
-    position: absolute;
     left: -50px;
+    position: absolute;
     top: 20px;
+    font-size: 78px;
   }
 }
 
@@ -35,4 +37,9 @@ p {
 
 h2, h3, h4 {
   margin: 25px 0 0;
+}
+
+main {
+  margin: -20px auto 0;
+  max-width: 660px;
 }
