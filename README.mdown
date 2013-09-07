@@ -3,7 +3,52 @@
 
 ### <a href="http://simply.geek-rocket.de/">Demo</a>
 
-## Documentation
+## Dependencies
+* Node
+* Kirby
+* Grunt
+* Bower
+* Scss/Compass
+
+## Instruction
+
+**Using Grunt**
+    // start the watch-task
+    grunt watch
+    
+    // Release a new version
+    grunt release:{type}
+    
+**Using Bower**
+    // searching new dependencies
+    bower search {package-name}
+    
+**Folder-Structure of Scss**
+
+    - scss
+    |-- _base
+    |--|-- _filename.scss
+    |-- _layouts
+    |--|-- _filename.scss
+    |-- _modules
+    |--|-- _filename.scss
+    |-- _states
+    |--|-- _filename.scss
+    
+**Convention**
+
+    // modulename - Prefix: "m-"
+    // layoutname - Prefix "l-"
+    .m-modulename
+    .l-layoutname
+    
+    // -- to create a modifier for this module
+    .m-modulename--modifier
+    
+    // __ for declaring a child-element
+    .m-modulename__child-element
+
+## Installing the theme
 
 It's really easy to use this theme. You should only clone this repository.
 
