@@ -14,6 +14,7 @@
 .l-center {
   margin-left: auto;
   margin-right: auto;
+
   text-align: center;
 }
 
@@ -24,16 +25,36 @@
 
 //top of the page
 .l-banner {
-  padding: 20px 0;
+  padding: 15px 0;
+
   background-color: $contrastColor;
-  color: #fff;
+
+  color: $white;
+
+  .l-row {
+    text-align: justify;
+
+    &:after {
+      content: '';
+      display: inline-block;
+      width: 100%;
+    }
+  }
+
+  h1, .m-list {
+    display: inline-block;
+    vertical-align: middle;
+  }
 }
 .l-banner__logo {
-  float: left;
   margin-top: 17px;
 
+  @include font-size(4);
+
   a {
-    color: #fff;
+    display: block;
+
+    color: $white;
   }
 }
 
@@ -41,7 +62,8 @@
 .l-footer {
   margin-top: 40px;
   padding-bottom: 40px;
-  color: #969fb5;
+
+  color: $blue-gray;
   text-align: center;
 
   p {
@@ -50,5 +72,6 @@
 }
 .l-footer__impressum {
   margin-top: 7px;
-  font-size: 12px;
+
+  @include font-size(1.2);
 }

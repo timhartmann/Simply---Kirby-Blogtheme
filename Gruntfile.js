@@ -4,6 +4,9 @@ module.exports = function(grunt) {
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
     watch: {
+      options: {
+        livereload: true
+      },
       files: [
         'assets/src/**'
       ],
@@ -18,7 +21,6 @@ module.exports = function(grunt) {
         files: [
           {
             expanded: true,
-            cwd: 'assets',
             src: ['assets/src/scss/application.scss'],
             dest: 'assets/build/stylesheets/application.css',
             filter: 'isFile'

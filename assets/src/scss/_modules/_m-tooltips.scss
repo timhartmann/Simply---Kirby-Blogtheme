@@ -10,11 +10,12 @@
     padding: 10px;
     position: absolute;
     top: -60px;
+
     background-color: $contrastColor;
   }
   .m-tooltip__content--social {
     a {
-      font-size: 18px;
+      @include font-size(1.8);
     }
   }
 }

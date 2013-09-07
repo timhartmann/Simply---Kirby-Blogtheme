@@ -4,6 +4,6 @@
     </footer>
   </div>
 
-  <?php echo js('assets/js/application.min.js') ?>
+  <?php echo js('assets/build/javascript/application.min.js') ?>
 </body>
 </html>

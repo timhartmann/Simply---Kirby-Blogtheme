@@ -18,7 +18,7 @@
 <body class="<?php echo $site->uri->path(1) ?><?php if($site->uri->path(1) == 'l-blog' && $site->uri->path(2)) { echo ' l-post'; } ?>">
   <div class="l-wrapper">
     <header class="l-banner" role="banner">
-      <div class="row group">
+      <div class="l-row group">
         <h1 class="l-banner__logo"><a href="<?php echo $site->url() ?>">Simply</a></h1>
         <ul class="m-list m-list--abreast">
           <li>Social Media:</li>

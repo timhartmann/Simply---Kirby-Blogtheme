@@ -9,7 +9,7 @@
     <?php $date = strtotime($article->datetime()) ?>
   <article class="m-post">
     <a href="<?php echo $article->url() ?>">
-      <img src="<?php echo thumb($article->images()->find('thumb.jpg'), array('width' => 576, 'height' => 261, 'crop' => true), false) ?>" class="thumb">
+      <img src="<?php echo thumb($article->images()->find('thumb.jpg'), array('width' => 576, 'height' => 261, 'crop' => true), false) ?>" class="m-post__thumb">
     </a>
     <div class="m-post__matter">
       <h2><?php echo $article->title() ?></h2>

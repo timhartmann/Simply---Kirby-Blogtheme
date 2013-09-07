@@ -23,7 +23,7 @@
   -webkit-font-smoothing: antialiased;
 }
 
-[class^="icon--"] {
+[class^="icon--"], [class*="icon--"] {
   font-family: 'Simply';
   speak: none;
   font-style: normal;
@@ -53,6 +53,4 @@
 }
 .icon--info:before {
   content: "\e001";
-  font-size: 41px;
-  vertical-align: 3px;
 }

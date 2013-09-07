@@ -1,12 +1,11 @@
 @charset "UTF-8";
 
 .m-list {
-  float: right;
   margin-top: 20px;
   position: relative;
 
   a {
-    color: #fff;
+    color: $white;
   }
 
   li {
@@ -14,7 +13,7 @@
     margin-left: 10px;
 
     a {
-      font-size: 32px;
+      @include font-size(3.2);
 
       &:hover {
         opacity: .5;
@@ -24,7 +23,8 @@
     &:first-child {
       margin-left: 0;
       vertical-align: 4px;
-      font-size: 18px;
+
+      @include font-size(1.8);
       font-weight: bold;
       text-transform: uppercase;
     }

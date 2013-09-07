@@ -1,14 +1,16 @@
 @charset "UTF-8";
 
 // Vendor
-@import 'compass';
+@import 'compass',
+        'compass/reset';
 
 // Base
 @import '_base/_variables.scss',
         '_base/_mixins.scss',
         '_base/_helper.scss',
-        '_base/_typography.scss',
-        '_base/_presets.scss';
+        '_base/_icons.scss',
+        '_base/_presets.scss',
+        '_base/_headings.scss';
 
 // Layouts
 @import '_layouts/_l-base.scss',

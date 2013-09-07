@@ -2,23 +2,28 @@
 
 //about-row
 .l-about {
-  background-color: $mainColor;
   padding: 60px 0;
-  text-align: center;
-  color: #fff;
 
-  h2 {
-    font-size: 24px;
-  }
+  background-color: $mainColor;
+
+  color: #fff;
+  text-align: center;
+
   .l-row {
     position: relative;
   }
   .close {
-    font-size: 48px;
-    color: #0e5c83;
     position: absolute;
     top: 0;
     right: 0;
+
+    color: $blue-dark;
+    @include font-size(4.8);
+  }
+  .icon--info {
+    top: 3px;
+
+    @include font-size(4.1);
   }
   img {
     @include border-radius(50%);
