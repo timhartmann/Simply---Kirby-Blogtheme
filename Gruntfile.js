@@ -26,6 +26,12 @@ module.exports = function(grunt) {
         ]
       }
     },
+    clean: {
+      files: [
+        'assets/build/stylesheets/application.css',
+        'assets/build/javascript/application.js'
+      ]
+    },
     copy: {
       main: {
         expand: true,
@@ -63,13 +69,30 @@ module.exports = function(grunt) {
         src: 'assets/build/javascript/application.js',
         dest: 'assets/build/javascript/application.min.js'
       }
+    },
+    bumup: ['package.json', 'bower.json'],
+    tagrelease: {
+      file: 'package.json',
+      commit:  true,
+      message: 'Release %version%',
+      prefix:  '',
+      annotate: false
     }
   });
 
   grunt.loadNpmTasks('grunt-contrib');
-  grunt.loadNpmTasks('grunt-contrib-sass');
+  grunt.loadNpmTasks('grunt-tagrelease');
+  grunt.loadNpmTasks('grunt-bumpup');
 
   // Default task(s).
   grunt.registerTask('default', ['sass', 'copy', 'concat']);
-  grunt.registerTask('release', ['default', 'cssmin', 'uglify']);
+  grunt.registerTask('release', function (type) {
+    type = type ? type : 'patch';
+    grunt.task.run('default');
+    grunt.task.run('cssmin');
+    grunt.task.run('clean');
+    grunt.task.run('uglify');
+    grunt.task.run('bumpup:' + type);
+    grunt.task.run('tagrelease');
+  });
 };
