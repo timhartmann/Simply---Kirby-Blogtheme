@@ -1,31 +1,9 @@
-  /*=== MIXINS ===*/
+@charset "UTF-8";
 
 // fonts
-@mixin font-size($value) { 
+@mixin font-size($value) {
   font-size: $value+px;
   font-size: ($value / 16)+rem;
-}
-
-//css3 
-@mixin box-shadow($val) {
-  -webkit-box-shadow: $val;
-  -moz-box-shadow: $val;
-  box-shadow: $val;
-}
-@mixin border-radius($val) {
-  -webkit-border-radius: $val;
-  -moz-border-radius: $val;
-  border-radius: $val;
-}
-@mixin box-sizing($type) {
-  -moz-box-sizing: $type;
-  -webkit-box-sizing: $type;
-  box-sizing: $type;
-}
-@mixin background-clip($type) {
-  -webkit-background-clip: $type;
-  -moz-background-clip: $type;
-  background-clip: $type;
 }
 
 //grid
@@ -73,7 +51,7 @@
     content: $icon;
     @include font-size($size);
     -webkit-font-smoothing: antialiased;
-    
+
     @content;
   }
 }

@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+.m-tooltip {
+  position: relative;
+
+  .m-tooltip__content {
+    display: none;
+    left: 0;
+    min-width: 75px;
+    padding: 10px;
+    position: absolute;
+    top: -60px;
+    background-color: $contrastColor;
+  }
+  .m-tooltip__content--social {
+    a {
+      font-size: 18px;
+    }
+  }
+}

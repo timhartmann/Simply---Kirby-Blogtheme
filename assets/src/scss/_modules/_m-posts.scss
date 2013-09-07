@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+.m-post {
+  margin-top: 25px;
+  padding: 40px 0 0;
+  border: 1px solid rgba(0,0,0,.1);
+  background-color: #fff;
+  @include box-shadow(0 1px 2px rgba(0,0,0,.1));
+  color: $baseFontColor;
+
+  &:first-of-type {
+    margin-top: 0;
+  }
+  .m-post__thumb {
+    display: block;
+    margin: 0 auto 20px;
+  }
+  img {
+    width: 576px;
+  }
+  .m-post__matter {
+    margin-bottom: 40px;
+    padding: 0 40px;
+    font-size: 16px;
+    line-height: 22px;
+  }
+  footer {
+    padding: 20px 40px;
+    background-color: #f8f9fa;
+
+    time {
+      display: inline-block;
+      font-weight: bold;
+      line-height: 40px;
+      text-transform: uppercase;
+    }
+    .m-cta-bar {
+      float: right;
+    }
+  }
+}

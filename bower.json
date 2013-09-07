@@ -1,0 +1,19 @@
+{
+  "name": "Simply---Kirby-Blogtheme",
+  "version": "0.8.1",
+  "homepage": "https://github.com/Chail/Simply---Kirby-Blogtheme",
+  "authors": [
+    "Tim Hartmann <tim.hartmann93@gmail.com>"
+  ],
+  "description": "Bower-Package of the free Blogtheme for Kirby \"Simply\"",
+  "keywords": [
+    "kirby",
+    "theme",
+    "blog",
+    "freebie"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "~2.0.3"
+  }
+}

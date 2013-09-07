@@ -1,0 +1,8 @@
+{
+  "name" : "Simply",
+  "version": "0.8.0",
+  "directory" : "assets/components",
+  "dependencies" : {
+
+  }
+}

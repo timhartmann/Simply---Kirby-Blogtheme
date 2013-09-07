@@ -1,7 +1,9 @@
-    <footer class="row bottom">
+    <footer class="l-row l-footer" role="contentinfo">
       <?php echo kirbytext($site->copyright()) ?>
-      <p class="impressum"><?php echo $site->author() ?>  ⁄  <?php echo $site->address() ?>  /  <?php echo $site->zip() ?></p>
+      <p class="l-footer__impressum"><?php echo $site->author() ?>  ⁄  <?php echo $site->address() ?>  /  <?php echo $site->zip() ?></p>
     </footer>
   </div>
+
+  <?php echo js('assets/js/application.min.js') ?>
 </body>
 </html>
